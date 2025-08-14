@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import androidx.navigation.compose.rememberNavController
 import com.polisan.core.presentation.designsystem.RuniqueTheme
 import com.polisan.core.presentation.designsystem.components.GradientBackground
 
@@ -24,7 +25,8 @@ class MainActivity : ComponentActivity() {
                     GradientBackground(
                         modifier = Modifier.fillMaxSize()
                     ) {
-
+                        val navController = rememberNavController()
+                        NavigationRoot(navController = navController)
                     }
                 }
             }
