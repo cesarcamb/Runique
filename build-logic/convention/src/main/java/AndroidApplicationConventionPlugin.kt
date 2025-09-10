@@ -1,8 +1,8 @@
 import com.android.build.api.dsl.ApplicationExtension
-import com.plcoding.convention.ExtensionType
-import com.plcoding.convention.configureBuildTypes
-import com.plcoding.convention.configureKotlinAndroid
-import com.plcoding.convention.libs
+import com.polisan.convention.ExtensionType
+import com.polisan.convention.configureBuildTypes
+import com.polisan.convention.configureKotlinAndroid
+import com.polisan.convention.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure

@@ -1,4 +1,4 @@
-package com.plcoding.convention
+package com.polisan.convention
 
 enum class ExtensionType {
     APPLICATION,
